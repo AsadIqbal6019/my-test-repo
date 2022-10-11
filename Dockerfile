@@ -6,4 +6,4 @@ EXPOSE 8080/tcp
 
 ADD target/github-actions-demo-0.0.1-SNAPSHOT.jar github-actions-demo.jar
 
-ENTRYPOINT ["java", "-jar", "kafka-database-demo.jar"]
+ENTRYPOINT ["java", "-jar", "github-actions-demo.jar"]
